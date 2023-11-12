@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.input {
+  width: 500px;
+  height: 30px;
+}
+.input-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input-1 input {
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-create {
+  width: 480px;
+  height: 45px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #3665f3;
+  color: white;
+}
+
+.wrapper-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wrapper-div input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #030817;
+  border-radius: 5px;
+  padding: 5px;
+}
+.siginin-btn {
+  width: 410px;
+  height: 35px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #3665f3;
+  color: white;
+  margin: 5px;
+}
+.main-div {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

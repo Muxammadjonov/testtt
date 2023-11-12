@@ -1,0 +1,291 @@
+* {
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1200px;
+  margin: 100px auto;
+  gap: 20px;
+}
+
+.contenerr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4px;
+  margin: 4%;
+  padding: 2%;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px, 10px, 10px black;
+  padding-block-end: 10px;
+  min-width: 180px;
+  height: 80px;
+  background-color: #c9613e;
+  border: 0px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fdfdfd;
+  padding: 2%;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-text {
+  display: flex;
+  gap: 15px;
+}
+
+.top-text-2 {
+  display: flex;
+  gap: 15px;
+}
+
+.bottom-navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-input {
+  width: 800px;
+}
+.navbar-input input {
+  width: 800px;
+  height: 30px;
+  border: 2px solid #3665f3;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.navbar-btn {
+  display: flex;
+  gap: 20px;
+}
+.navbar-btn button {
+  width: 100px;
+  height: 40px;
+  background-color: #3665f3;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+}
+.hero {
+  margin-top: 20px;
+  background-color: #feb786;
+  height: 330px;
+  width: 100%;
+  display: flex;
+  color: #5c1b05;
+}
+
+.hero-text {
+  width: 25%;
+  height: 100%;
+  padding: 2%;
+}
+.hero-img1 {
+  width: 25%;
+  height: 100%;
+}
+
+.hero-img2 {
+  width: 25%;
+  height: 100%;
+}
+.hero-img3 {
+  width: 25%;
+  height: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+.hero-btn {
+  width: 100px;
+  height: 35px;
+  background-color: #feb786;
+  color: #5c1b05;
+  border: 2px solid #5c1b05;
+  border-radius: 2px;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.products-first-div {
+  width: 70%;
+  height: 79%;
+  padding: 25px;
+  border: 2px solid rgba(37, 37, 37, 0.545);
+  border-radius: 4px;
+}
+.products-second-div {
+  background-color: #ffffff;
+  width: 80%;
+  height: 100%;
+}
+
+.products-second-div img {
+  height: 100%;
+}
+
+.products-third-div {
+  background-color: #fdfdfd;
+  width: 50%;
+  height: 100%;
+}
+
+.products-third-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c5dee;
+  width: 100%;
+  padding: 5px;
+  margin: 20px;
+  font-size: 14px;
+  border: 2px;
+  box-shadow: 10px, 10px, 10px black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+}
+
+.cards img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.cards h3 {
+  font-size: 20px;
+}
+
+#result {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  margin: 100px auto;
+  gap: 20px;
+  transition: 0.3s all;
+}
+
+#result :hover {
+  background-color: #1f50e1e6;
+}
+
+.products-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #fdfdfd;
+  border: 2px solid black;
+  border-radius: 75px;
+  border-radius: 2px;
+}
+
+.catigories-div {
+  background-color: #c9613e;
+  min-width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  border-radius: 5px;
+}
+
+.catigories-div img {
+  width: 100px;
+  height: 100px;
+  padding: 5%;
+  font-family: "Noto Sans", sans-serif;
+}
+.categoryy {
+  display: flex;
+  margin-top: 40px;
+  gap: 1%;
+  background-color: #feb786;
+  padding: 2%;
+  width: 96%;
+  border: 0;
+  border-radius: 5px;
+  height: 350px;
+  overflow-x: scroll;
+}
+
+.main_div {
+  display: flex;
+  padding: 3%;
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main_div img {
+  width: 500px;
+  height: 510px;
+  margin: 10px 20px;
+}
+
+#wrapper_div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#wrapper_div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 2%;
+  padding: 20px;
+}
+#wrapper_div button {
+  width: 250px;
+  height: 45px;
+  border: 0;
+  border-radius: 6px;
+
+  color: white;
+}
+
+#wrapper_div img {
+  border: 0;
+  border-radius: 10px;
+}
+
+.card-btn {
+  background-color: rgb(12, 188, 112);
+}
+.buy-btn {
+  background-color: #2c5dee;
+}
